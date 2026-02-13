@@ -11,9 +11,9 @@ function App() {
 
   const ajouterCourse = () => {
     const newCourse = {
-      id: courses.length + 1,
-      nom: "Nouvelle course",
-      fait: false,
+      id: courses.length + 1, 
+      nom: "orange",
+      fait: true,
     };
 
     setCourses([...courses, newCourse]);
