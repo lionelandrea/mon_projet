@@ -1,5 +1,6 @@
 import TeamMember from "./components/TeamMember";
 import "./App.css";
+import SignupForm from "./components/SignupForm";
 import { useState } from "react";
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
 
   return (
     <div className="container">
+
+      <SignupForm />
+
       <h1>{compteur}</h1>
       <button onClick={direBonjour}>cliquez</button>
 
